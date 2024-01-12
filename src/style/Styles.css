@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5;
+    /* Ajoutez vos autres styles ici */
+}
+
+.header-titre .header-checkmark {
+    color: green;
+    margin-right: 5px;
+}
+
+
+
+/* Styles pour mes boutons du formulaire */
+.button-style {
+    padding: 10px 20px;
+    border: 2px solid black; /* Bordures noires standard */
+    border-radius: 20px; /* Boutons arrondis */
+    background-color: transparent; /* Fond transparent */
+    color: black; /* Texte noir */
+    margin: 5px; /* Espacement autour des boutons */
+    cursor: pointer; /* Curseur pointeur */
+    outline: none; /* Retirer l'outline par défaut sur focus */
+  }
+  
+  .button-active {
+    border-color: blue; /* Bordures bleues pour bouton actif */
+    color: blue; /* Texte bleu pour bouton actif */
+  }
+
+.button-style:hover {
+    border-color: blue;
+    color: blue;
+}
+
+
+.button-style.active {
+    border-color: blue;
+    color: blue;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* Espacement entre les groupes de formulaire */
+}
+
+
+/* Styles.css */
+.form-details {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Espacement entre les colonnes */
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+    grid-gap: 20px; /* Espacement entre les colonnes */
+}
